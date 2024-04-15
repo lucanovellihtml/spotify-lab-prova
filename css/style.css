@@ -67,6 +67,7 @@ main {
     padding-right: 10px;
     padding-top: 10px;
     background-color: rgb(29, 29, 29);
+    border-radius: 10px;
 }
 
 .contenitore-raccolta-artisti {
@@ -96,7 +97,7 @@ h1 {
 }
 
 .titolo-tipologia-artista {
-    color: rgb(126, 124, 124);
+
     font-size: 15px;
     font-weight: 600;
     margin-block-start: 0px;
@@ -117,7 +118,61 @@ h1 {
 /* -- */
 
 
+/* FOOTER STYLE */
+footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 
+.tabella-footer {
+    font-family: Poppins;
+    font-size: 15px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.tabella-footer th {
+    color: white;
+    width: 300px;
+}
+
+.tabella-footer th {
+    color: white;
+    width: 300px;
+}
+
+.tabella-footer td {
+    color: rgb(126, 124, 124);
+    text-align: left;
+    font-weight: 600;
+}
+
+.contenitore-footer-social {
+    display: flex;
+    gap: 30px;
+}
+
+.fa {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(46, 45, 45);
+    border-radius: 200px;
+}
+
+hr {
+    border: 1px solid rgb(46, 45, 45);
+}
+
+.contenitore-footer-close {
+    color: rgb(126, 124, 124);
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+/* -- */
 
 /* CONTENITORE SECONDARIO STYLE */
 .contenitore-secondario {
